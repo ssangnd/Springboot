@@ -8,6 +8,21 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+//Now connect with mysql using JPA
+/*
+docker run -d --rm --name mysql-spring-boot \
+-e MYSQL_ROOT_PASSWORD=123456 \
+-e MYSQL_USER=sangnd \
+-e MYSQL_PASSWORD=123456 \
+-e MYSQL_DATABASE=test_db \
+-p 3306:3306 \
+--volume mysql-spring-boot-volume:/var/lib/mysql \
+mysql:latest
+mysql:8.0.29
+
+mysql -h localhost -P 3306 --protocol=tcp -u sangnd -p
+show databases;
+* */
 
 @Configuration
 public class Database {
