@@ -43,8 +43,8 @@ public class Database {
                         "Ipad", 2021, 599.0, "");
 //                System.out.println("inter data: "+ productRepository.save(productA));
 //                System.out.println("inter data: "+ productRepository.save(productB));
-                logger.info("inter data: "+ productRepository.save(productA));
-                logger.info("inter data: "+ productRepository.save(productB));
+//                logger.info("inter data: "+ productRepository.save(productA));
+//                logger.info("inter data: "+ productRepository.save(productB));
             }
         };
     }
